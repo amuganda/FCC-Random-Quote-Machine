@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/php; charset=utf-8" />
+
+        <link rel="stylesheet" rel='stylesheet' type='text/css' href="http://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" rel='stylesheet' type='text/css' href="http://storage.googleapis.com/code.getmdl.io/1.0.1/material.teal-red.min.css" />
+        <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Laila:400,500'>
+        <link rel='stylesheet' type='text/css' href='css/style.css' >
+
+
+        <script type="text/javascript" charset="utf-8"></script>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+        <script type="text/javascript" src="http://storage.googleapis.com/code.getmdl.io/1.0.1/material.min.js"></script>
+        <script type='text/javascript' src="js/script.js"></script>
+
+        <title>Freecodecamp - Build A Random Quote Machine</title>
+
+    </head>
+
+    <body>
+        <div class="mdl-grid">
+             <div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                    <h1 class="mdl-card__title-text">Random Quote Machine</h1>
+                </div>
+               <div class="mdl-card__supporting-text mdl-typography--text-center">
+                <!-- This Is Where The Quote Will Appear On The Card -->
+                           <h2 class="quote"></h2>
+                           <p class="author"></p>
+                </div>
+                <!--This Is Where The Buttons Will Appear On The Card -->
+                <div class="mdl-card__actions mdl-card--border">
+                       <div class="mdl-layout-spacer"></div>
+                         <button id = "getQuote" button class="mdl-button mdl-button--icon mdl-button--colored ">
+                         <i class="material-icons">refresh</i>
+                         </button>
+                       <button class="mdl-button mdl-button--icon mdl-button--colored" button id="twitter"><a href="#" id="tweetThis" target="_blank" style="text-decoration:none";>
+                       <i class="material-icons">share</i>
+                       </button>
+                </div>
+            </div>
+    </body>
+ </html>
